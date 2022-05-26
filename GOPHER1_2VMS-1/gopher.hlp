@@ -1,0 +1,87 @@
+1 GOPHER
+    Gopher [Startup_options] [Server_host] [Port_number]
+
+ The Gopher client is used to talk to Gopher servers on the Internet.
+
+ The Internet Gopher is a distributed document delivery service.  It
+ allows a neophyte user to access various types of data residing on
+ multiple hosts in a seamless fashion.  This is accomplished by
+ presenting the user a hierarchical arrangement of documents and by
+ using a client-server communications model.  The Internet Gopher
+ Server accepts simple queries, and responds by sending the client a
+ document.
+
+ The [Server_host] may be specified at startup; if omitted, the default
+ server for your site is used.
+
+ The [Port_number] of the server host may be specified at startup; if
+ omitted you will use the default port specified at your site.  The more
+ or less standard and accepted Gopher port number on the Internet is 70.
+
+ The Internet Gopher was developed at the University of Minnesota.
+2 Startup_Options
+ Although ordinarily users will not need these features, the following
+ options may be issued at startup:
+
+ -s
+   Use the -s option to enter "secure mode" which means that you
+   can't save or print the files that you browse.
+
+ -b
+   Use the -b option to start the client on the bookmark page.
+
+ -p
+   Use the -p option to specify a specific selector string to send
+   to the root level server on startup.
+
+ -t
+   Use the -t option to set the title of the initial screen for the
+   Gopher client.
+2 In-session_Options
+ Press return or the right arrow key on the mini keypad to view a
+ document or enter a directory.
+
+ Press Control/W, Control/R, or Control/L to repaint your menu at
+ any time.
+
+ At any time, you may press ? to see a help file of commands available.
+
+ Menu entries ending with "." are files; menu entries ending with "/"
+ are directories; additional characteristics for files (such as binary,
+ sound, image, and others) are identified within angle brackets.
+3 Bookmarks
+ Bookmarks allow users to create their own personallized menus from
+ those available on the variety of Gopher servers available worldwide.
+ The following list of keystrokes aids in developing and maintaining
+ the bookmarks.
+
+ a : Add current item to the bookmark list.
+ A : Add current directory/search to bookmark list.
+ v : View bookmark list.
+ d : Delete a bookmark/directory entry.
+3 Moving_around
+ Use the Arrow Keys to move around
+
+ Up, k ...............:  Move to previous line.
+ Down, j .............:  Move to next line.
+ Right Return ........:  "Enter"/Display current item.
+ Left, u  ............:  "Exit" current item/Go up a level.
+
+ >, +, Pgdwn, space ..:  View next page.
+ <, -, Pgup, b .......:  View previous page.
+
+ 0-9 .................:  Go to a specific line.
+ m   .................:  Go back to the main menu.
+3 Other_commands
+ s : Save current item to a file.
+ S : Save current list of items to a file.
+ D : Download a file.
+ q : Quit with prompt.
+ Q : Quit unconditionally (also Control/Z).
+ = : Display Technical information about current item.
+ o : Open a new gopher server
+ O : Change options.
+ f : Connect to an anonymous FTP host
+ / : Search for an item in the menu.
+ n : Find next search item.
+ $, ! : Spawn to subprocess (use "logout" to return to session)
