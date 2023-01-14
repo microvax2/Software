@@ -1,4 +1,11 @@
- ECU is protected under international copyright treaties and
+ECU software for Windows 3.x
+
+I DO NOT OWN THE COPYRGIHT FOR THIS SHAREWARE
+SEE BELOW FOR THE ORIGINAL INFORMATION TEXT FROM THIS DISTROBUTION
+==================================================================
+
+
+ECU is protected under international copyright treaties and
  I (David Lane) retain all rights to this software.
 
  As a shareware distributor, you have permission to distribute
