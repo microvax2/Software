@@ -1,0 +1,25 @@
+			Documentation for CONVERT.EXE
+			 (a file converstion utility)
+
+CONVERT.EXE is a file conversion utility which takes Motorola S-record
+files as input and converts them to a memory image format.  You are prompted
+for all parameters after invoking the program.	The following is a list of
+the parameters required and a description of each:
+
+	Prom Size:	The size of the output file in K bytes.
+	Input File:	The name of the S-record input file.
+	Output File:	The name to be assigned to the output file.
+			(existing files will be overwritten)
+	Offset: 	The byte offset to be subtracted from the addresses
+			in the input file.
+
+After responding to all of the above requests, the input file is read and
+converted.
+
+Notes about conversion:
+	No error checking is done in this conversion.  The input file is
+	searched for a line with a '1' as the second character.  When found,
+	the length, and address are then read.	The number of bytes specified
+	by length are then read as data.  The checksum byte is ignored.
+
+
