@@ -1,7 +1,11 @@
-XYMATH FROM 1991
+XYMATH 2.5b FROM 1991
 I DO NOT OWN ANY RIGHTS FOR THIS SHAREWARE
 SEE BELOW EXTRACT FROM ORIGINAL RELEASE
+========================================
+Modern XYMATH is here: https://github.com/sonofeft/XYmath 
+
 =========================================
+
  XYmath
           
                           by Charles Taylor
